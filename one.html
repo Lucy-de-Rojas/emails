@@ -7,6 +7,8 @@
 
             <!-- Import custom font -->
             <style>
+
+                /* Font Lato: */
                 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
 
 
@@ -26,8 +28,8 @@
 
 
 
-                /* social links: */
-                #socialLinks {
+                /* social links HORIZONTAL: */
+                #socialLinksHORIZ {
                         background-color: rgb(202, 110, 110);
                         padding: 20px 0;
                         border-radius: 15px;
@@ -37,10 +39,28 @@
                 }
 
 
-                #socialLinks > * {
+                #socialLinksHORIZ > * {
                         margin: 20px 0;
                         background-color: rgb(126, 126, 226);
                         padding: 5px 0;
+
+                }
+
+
+
+                #socialLinksVERT {
+                        background-color: rgb(141, 141, 209);
+                        border-radius: 15px;
+                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+                        padding: 20px 0;
+
+                }
+
+                #socialLinksVERT > * {
+                        background-color: rgb(120, 13, 141);
+                        padding: 15px 5%;
+                        border-radius: 10px;
+
 
                 }
 
@@ -109,15 +129,39 @@
 
 
 
-                  <!-- social links: -->
+
+
+                  <!-- social links HORIZONTAL: -->
                    <tr align="center">
 
-                        <td id="socialLinks">
+                        <td id="socialLinksHORIZ">
 
                                <p>github</p>
                                 <p>linkedin</p>
                                 <p>www</p>
                                 <p>figma</p>
+                        </td>
+
+
+                </tr>
+
+
+
+
+
+
+
+                  <!-- social links Vertical: -->
+                  <tr align="center">
+
+                        <td id="socialLinksVERT">
+
+                               <span>github</span>
+                               <span>linkedin</span>
+                               <span>www</span>
+                               <span>figma</span>
+
+
                         </td>
 
 
