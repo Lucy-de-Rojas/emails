@@ -3,37 +3,249 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page One</title>
-</head>
-<body>
-        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                <tr>
-                        <td style="padding: 20px 0 30px 0;">
-                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #cccccc; border-collapse: collapse;">
-                                        <tr>
-                                                <td align="center" bgcolor="#70bbd9" style="padding: 40px 0 30px 0;">
-                                                        <img src="../media/linkedInRED.jpg" alt="Creating Email Magic" width="300" height="300" style="display: block;" />
-                                                </td>
-                                        </tr>
-                                        <tr>
-                                                <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
-                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                                <tr>
-                                                                        <td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
-                                                                                <b>Welcome to Our Newsletter</b>
-                                                                        </td>
-                                                                </tr>
-                                                                <tr>
-                                                                        <td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
-                                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed.
-                                                                        </td>
-                                                                </tr>
-                                                                <tr>
-                                                                        <td align="center" bgcolor="red">
-                                                                                <img src="../media/GithubLogoRED.png" alt="" width="300" height="300" style="display: block; text-align: center;" />
-                                                                                </td>
-                                                                                </tr></table></td></tr></table> </td></tr></table>
+        <title>Home Page     </title>
 
+        <style>
+                /* Font Lato: */
+                @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+
+
+
+                body {
+                        font-size: 170%;
+                }
+
+
+                /* styling a links: */
+                a {
+                        text-decoration: none;
+                        font-family: Lato;
+                                      }
+
+                hr {
+                        background-color: rgb(226, 123, 123);
+                        height: 1px;
+                        width: 80%;
+                        border-radius: 20px;
+                        margin-top: 50px;
+
+                }
+
+                p {
+                        font-family: Lato;
+                }
+
+
+
+
+
+                /*  min & max screen changes: */
+                /* max for mobile */
+                /* max for pc screen */
+                @media only screen and (max-width: 1000px) {
+
+                }
+
+
+
+                #clientName {
+                        color: rgb(59, 59, 59);
+                        text-shadow: 0 0 5px #55555585;
+
+                }
+
+
+                #message {
+                        font-family: 'Lato';
+                        padding: 0 20px;
+                        line-height: 2.5rem;
+                }
+
+
+                #roleTitle {
+                        font-weight: bold;
+                        padding: 5px 15px;
+                        background-color: rgb(233, 113, 1);
+                        color: white;
+                        text-shadow: 0 0 5px rgb(10, 91, 184);
+                        border-radius: 20px;
+                }
+
+
+
+                #socialLinks {
+
+                        padding: 50px 0px;
+                        background-color: rgb(121, 121, 230);
+                        border-radius: 20px 20px 0 0;
+
+                }
+
+                #socialLinks > * {
+
+                        color: white;
+                        background-color: rgb(31, 8, 8);
+                        padding: 20px;
+                        border-radius: 5px;
+                        transition: all 1s;
+                }
+
+                #socialLinks > *:hover {
+                        background-color: red;
+                }
+
+
+
+
+
+                .buttonWrapper {
+                        padding: 30px 0;
+                }
+
+                .button {
+                        border-radius: 15px;
+                        background-color: rgb(154, 206, 11);
+                        padding: 15px 20px;
+                        box-shadow: 0 0 5px rgb(163, 120, 1);
+                        color: rgb(51, 0, 47);
+                        transition: all 1s;
+                }
+
+                .button:hover {
+                        background-color: purple;
+                        color: white;
+                }
+
+
+
+
+                #message {
+                        font-family: 'Lato';
+                }
+
+
+
+
+
+
+
+
+
+
+
+                </style>
+
+</head>
+<body style="padding:0 ; margin: 0;">
+
+        <!-- main table set up:   -->
+        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
+
+
+
+
+                <!-- top page image: -->
+                <tr style="padding: 0; margin: 0;">
+                        <td align="center" id="images">
+                                <img
+                                        src="media\Art\art-1869490.jpg"
+                                        alt="top page image"
+                                        width="600"
+                                        height="400"
+                                        style="display: block;"
+
+
+                                        />
+
+
+
+
+
+                        </td>
+
+
+                </tr>
+
+
+                <!-- heading: -->
+                <tr align="center" style="display: block;"><td>
+                        <h1 style="color: rgb(77, 77, 77);font-family: 'Lato'; ">Dear <span id="clientName"> name</span>,</h1>
+                </td></tr>
+
+
+
+
+
+                <!-- message: -->
+                <tr align="center"><td>
+                        <p id="message">
+                                Lorem ipsum dolor, sit <span id="roleTitle">Front End Developer </span> adipisicing elit. Dignissimos provident, nam, necessitatibus cupiditate quod dolore vitae id numquam, quidem earum minima. Deleniti dolores eaque, eos iure esse accusantium molestias eius?
+                        </p>
+                        <p>with best regards</p>
+                </td></tr>
+
+
+                <!-- signature: -->
+                <tr><td align="center">
+                        <img src="./media/Signature/SignaturegreyBlue.png" width="300" />
+                </td></tr>
+
+
+                <!-- Hairline: -->
+                <tr><td>
+
+                        <hr >
+                </td></tr>
+
+
+
+                <!-- call button: -->
+                 <tr align="center"><td class="buttonWrapper" >
+                        <a href="tel:+447411387009" class="button">Call Lucy</a>
+                </td></tr>
+
+
+
+
+
+
+                 <!-- file button: -->
+                  <tr align="center"><td class="buttonWrapper">
+                        <a href="./cvs/Lucyt de Rojas web dev 2025 CZ.pdf" download class="button"> Download CV</a></td></tr>
+
+
+
+
+<!-- spacer: -->
+ <tr style="height: 70px;"><td></td></tr>
+
+
+
+ <tr align="center" style="font-family: Lato;"><td><p>Online Profiles:</p></td></tr>
+
+                <!-- social links: -->
+                  <tr align="center">
+
+
+                        <td id="socialLinks">
+
+                                <a href="https://github.com/Lucy-de-Rojas">Github</a>
+                                <a href="https://www.linkedin.com/in/lucyderojas/">LinkedIn</a>
+                                <a href="https://lucy-de-rojas.vercel.app/">www</a>
+                                <a href="https://www.figma.com/@lucyderojas">Figma</a>
+
+
+
+
+
+                        </td>
+
+
+                </tr>
+
+
+
+</table>
 
 </body>
 </html>
