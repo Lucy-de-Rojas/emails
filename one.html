@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Email 1        </title>
 
-            <!-- Import custom font -->
-            <style>
+        <style>
+                /* Font Lato: */
+                @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+
 
 
                 body {
@@ -19,10 +21,6 @@
                         text-decoration: none;
                                       }
 
-
-
-                /* Font Lato: */
-                @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
 
 
 
@@ -41,6 +39,16 @@
                         text-shadow: 0 0 5px #55555585;
 
                 }
+
+
+                #message {
+                        font-family: 'Lato';
+                }
+
+
+
+
+
 
 
                 .buttonWrapper {
@@ -68,60 +76,6 @@
 
 
 
-                /* social links HORIZONTAL: */
-                #socialLinksHORIZ {
-                        background-color: rgb(202, 110, 110);
-                        padding: 20px 0;
-                        border-radius: 15px;
-                        color: white;
-                        font-family: 'Lato';
-
-                }
-
-
-
-
-                #socialLinksHORIZ > * {
-                        margin: 20px 0;
-                        background-color: rgb(126, 126, 226);
-                        padding: 5px 0;
-
-                }
-
-
-
-                #socialLinksVERT {
-                        background-color: rgb(141, 141, 209);
-                        border-radius: 15px;
-                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-                        padding: 20px 0;
-
-                }
-
-                #socialLinksVERT > * {
-                        background-color: rgb(120, 13, 141);
-                        padding: 15px 5%;
-                        border-radius: 10px;
-
-
-                }
-
-                /* for mobile screen to hide: */
-                @media only screen and (max-width: 590px) {
-                        #socialLinksVERT {
-                                display: none;
-                        }
-                                }
-
-                   /* for pc screen to hide: */
-                   @media only screen and (min-width: 590px) {
-                        #socialLinksHORIZ {
-                                display: none;
-                        }
-
-
-
-                }
 
 
 
@@ -206,36 +160,15 @@
 
 
 
-                  <!-- social links HORIZONTAL: -->
-                   <tr align="center">
-
-                        <td>Social Links:</td>
-                        <td id="socialLinksHORIZ">
-
-                               <a href="https://github.com/Lucy-de-Rojas" class="social">Github</a>
-                               <a href="https://www.linkedin.com/in/lucyderojas/">LinkedIn</a>
-
-                               <a href="https://lucy-de-rojas.vercel.app/">🌐</a>
-                               <a href=""></a>
-
-
-                                <p>www</p>
-                                <p>figma</p>
-                        </td>
-
-
-                </tr>
 
 
 
 
 
-
-
-                  <!-- social links Vertical: -->
                   <tr align="center">
 
-                        <td id="socialLinksVERT">
+
+                        <td id="socialLinks">
 
                                <span>github</span>
                                <span>linkedin</span>
