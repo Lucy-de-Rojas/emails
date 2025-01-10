@@ -5,11 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Email 1        </title>
 
-
-
             <!-- Import custom font -->
             <style>
                 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+                @media only screen and (max-width: 800px) {
+                        #images {
+                                display: none;
+
+                        }
+
+                }
+
+
                 </style>
 
 </head>
@@ -22,8 +31,8 @@
 
 
                 <!-- top page image: -->
-                <tr style="padding: 0; margin: 0;">
-                        <td style="padding: 0; margin: 0;" align="center">
+                <tr style="padding: 0; margin: 0; display: block;">
+                        <td style="padding: 0; margin: 0;" align="center" id="images">
                                 <img
                                         src="media\Art\abstract-1779630.png"
                                         alt="top page image"
@@ -33,6 +42,19 @@
 
 
                                         />
+
+                                        <img
+                                        src="media\Art\abstract-1779630.png"
+                                        alt="top page image"
+                                        width="600"
+                                        height="300"
+                                        style="display: block;"
+
+
+                                        />
+
+
+
                         </td>
 
 
@@ -40,12 +62,13 @@
 
 
                 <!-- heading: -->
-
-
-
-                <tr align="center"><td>
+                <tr align="center" style="display: block;"><td>
                         <h1 style="color: rgb(77, 77, 77);font-family: 'Lato'; ">Dear >>> client name <<,</h1>
                 </td></tr>
+
+
+
+
 
                 <!-- message: -->
                 <tr align="center"><td>
