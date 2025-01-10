@@ -7,16 +7,16 @@
 
             <!-- Import custom font -->
             <style>
-                @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Emoji:wght@300..700&family=Pacifico&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
 
 
-                /*  mobiles screen changes: */
 
                 #images {
                         display: flex;
                         flex-direction: column;
                 }
 
+                /*  mobiles screen changes: */
                 @media only screen and (max-width: 800px) {
                         #images {
                                 flex-direction: row;
@@ -26,20 +26,40 @@
                 }
 
 
+
+                #socialLinks {
+                        display: flex;
+                        flex-direction: column;
+                        background-color: rgb(202, 110, 110);
+                        padding: 20px 0;
+                        border-radius: 15px;
+                        color: white;
+
+                }
+
+
+                #socialLinks > * {
+                        margin: 20px 0;
+
+                }
+
+
+
+
                 </style>
 
 </head>
 <body style="padding:0 ; margin: 0;">
 
         <!-- main table set up:   -->
-        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="padding: 0 50px;" >
+        <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" >
 
 
 
 
                 <!-- top page image: -->
-                <tr style="padding: 0; margin: 0; display: block;">
-                        <td style="padding: 0; margin: 0;" align="center" id="images">
+                <tr style="padding: 0; margin: 0;">
+                        <td align="center" id="images">
                                 <img
                                         src="media\Art\abstract-1779630.png"
                                         alt="top page image"
@@ -50,15 +70,7 @@
 
                                         />
 
-                                        <img
-                                        src="media\Art\abstract-1779630.png"
-                                        alt="top page image"
-                                        width="600"
-                                        height="300"
-                                        style="display: block;"
 
-
-                                        />
 
 
 
@@ -95,7 +107,14 @@
 
 
                   <!-- social links: -->
-                   <tr align="center"><td>Links</td></tr>
+                   <tr align="center" id="socialLinks">
+                        <td>github</td>
+                        <td>linbkedin</td>
+                        <td>www</td>
+                        <td>figma</td>
+
+
+                </tr>
 
 
 
