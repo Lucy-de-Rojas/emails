@@ -45,14 +45,6 @@
                 }
 
 
-                @media only screen and (min-width: 900px) {
-                        #socialLinksHORIZ {
-                                display: none;
-                        }
-
-
-
-                }
 
 
                 #socialLinksHORIZ > * {
@@ -80,9 +72,19 @@
 
                 }
 
-
-                @media only screen and (max-width: 900px) {
+                /* for mobile screen to hide: */
+                @media only screen and (max-width: 600px) {
                         #socialLinksVERT {
+                                display: none;
+                        }
+
+
+
+                }
+
+                   /* for pc screen to hide: */
+                   @media only screen and (min-width: 600px) {
+                        #socialLinksHORIZ {
                                 display: none;
                         }
 
