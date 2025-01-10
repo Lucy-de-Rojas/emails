@@ -11,9 +11,15 @@
 
 
                 /*  mobiles screen changes: */
+
+                #images {
+                        display: flex;
+                        flex-direction: column;
+                }
+
                 @media only screen and (max-width: 800px) {
                         #images {
-                                display: none;
+                                flex-direction: row;
 
                         }
 
