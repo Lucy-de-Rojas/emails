@@ -21,6 +21,7 @@ Procedure:
 
 # [emails are here](https://lucy-de-rojas.github.io/emails/){:target="_blank"}
 
+[Open Emails in New Tab](https://lucy-de-rojas.github.io/emails/){:target="_blank"}
 
 
 
