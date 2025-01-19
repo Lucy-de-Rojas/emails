@@ -24,5 +24,10 @@ Procedure:
 
 
 
+# Emails List:
+[digital waffle 19 Jan - digital designer](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalWaffle/digitalDesigner19Jan.html)
+
+
+
 
 
