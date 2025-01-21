@@ -31,7 +31,7 @@ Procedure:
 [Google form](https://lucy-de-rojas.github.io/emails/emails/January2025/googleForm/index.html)
 
 
-
+[digital gurus - front end developer (Jan 2025)](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalGurus/frontEndDev.html)
 
 
 
