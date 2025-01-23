@@ -24,6 +24,10 @@ Procedure:
 
 
 # Emails List:
+[Lucy de Rojas - Generic Email]()
+
+
+
 [digital waffle 19 Jan - digital designer](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalWaffle/digitalDesigner19Jan.html)
 
 
@@ -34,4 +38,4 @@ Procedure:
 [digital gurus - front end developer (Jan 2025)](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalGurus/frontEndDev.html)
 
 
-
+[Justin Fielder](https://lucy-de-rojas.github.io/emails/emails/January2025/Justin-Fielder/index.html)
