@@ -24,9 +24,11 @@ Procedure:
 
 
 # Emails List:
-[Lucy de Rojas - Generic Email]()
-
-
+<br />
+<a style="background-color: red; font-size: 2rem; padding:20px; text-decoration: none; color: white; border-radius:20px;" href="">
+Lucy de Rojas - Generic Email
+</a>
+<br /><br /><br />
 
 [digital waffle 19 Jan - digital designer](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalWaffle/digitalDesigner19Jan.html)
 
