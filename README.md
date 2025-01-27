@@ -41,3 +41,7 @@ Lucy de Rojas - Generic Email
 
 
 [Justin Fielder](https://lucy-de-rojas.github.io/emails/emails/January2025/Justin-Fielder/index.html)
+
+
+
+[Rocket Design Events](https://lucy-de-rojas.github.io/emails/emails/January2025/Rocket-design-events/index.html)
