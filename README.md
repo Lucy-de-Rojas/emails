@@ -45,3 +45,6 @@ Lucy de Rojas - Generic Email
 
 
 [Rocket Design Events](https://lucy-de-rojas.github.io/emails/emails/January2025/Rocket-design-events/index.html)
+
+
+[SkyMedic](emails\January2025\skyMedic\index.html)
