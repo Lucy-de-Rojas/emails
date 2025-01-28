@@ -14,11 +14,25 @@
                 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
 
 
+                :root {
+                        --main-color: red;
+                        --main-background-color: blue;
+                        --shadow-color: rgb(75, 72, 72);
+                        --role-title-background-color: rgb(219, 144, 5);
+                        --role-title-color: rgb(255, 255, 255);
+                        --para-highlight: green;
+
+                }
+
+
+
+
+
 
                 body {
                         font-size: 170%;
                         font-family: 'Lato';
-                        color: #101727b9;
+                        color: var(--main-color);
                 }
 
 
@@ -29,7 +43,7 @@
                                       }
 
                 hr {
-                        background-color: rgb(226, 123, 123);
+                        background-color: var(--main-background-color);
                         height: 1px;
                         width: 80%;
                         border-radius: 20px;
@@ -58,7 +72,7 @@
 
                 #clientName {
                         color: rgb(59, 59, 59);
-                        text-shadow: 0 0 5px #55555585;
+                        text-shadow: 0 0 5px var(--shadow-color);
 
                 }
 
@@ -73,8 +87,8 @@
                 #roleTitle {
                         font-weight: bold;
                         padding: 5px 15px;
-                        background-color: #f83e00;
-                        color: white;
+                        background-color: var(--role-title-background-color);
+                        color: var(--role-title-color);
                         text-shadow: 0 0 5px rgb(10, 91, 184);
                         border-radius: 20px;
                         margin: 0 10px;
@@ -89,7 +103,7 @@
                 #socialLinks {
 
                         padding: 50px 0px;
-                        background-color: #101727;
+                        background-color: var(--main-background-color);
                         border-radius: 20px 20px 0 0;
 
                 }
@@ -123,7 +137,7 @@
 
 
                 #paraHighlight {
-                        background-color: #a2e9d9;
+                        background-color: var(--para-highlight);
                         color: rgb(39, 39, 39);
                         width: 100%;
                         padding: 30px 20px;
