@@ -15,12 +15,29 @@
 
 
                 :root {
-                        --main-color: red;
-                        --main-background-color: blue;
-                        --shadow-color: rgb(75, 72, 72);
-                        --role-title-background-color: rgb(219, 144, 5);
+                        --main-color: rgb(31, 0, 22);
+                        --main-BG: blue;
+                        --shadow-color: rgba(75, 72, 72, 0.5);
+
+
+                        --clientName-color: var(--main-color);
+
+                        --role-title-BG: rgb(248, 5, 228);
                         --role-title-color: rgb(255, 255, 255);
-                        --para-highlight: green;
+
+
+                        --social-links-BG: rgb(40, 1, 66);
+                        --social-links-insides-BG: rgb(0, 98, 105);
+                        --social-links-insides-color: rgb(255, 255, 255);
+
+                        --listing-BG:black;
+
+                        --paraHighlight-BG: rgb(157, 238, 157);
+                        --paraHighlight-color: rgb(28, 29, 1);
+
+                        --button-color: rgb(255, 255, 255);
+                        --button-BG: green;
+
 
                 }
 
@@ -39,11 +56,10 @@
                 /* styling a links: */
                 a {
                         text-decoration: none;
-                        /* font-family: Lato; */
                                       }
 
                 hr {
-                        background-color: var(--main-background-color);
+                        background-color: var(--main-BG);
                         height: 1px;
                         width: 80%;
                         border-radius: 20px;
@@ -71,7 +87,7 @@
 
 
                 #clientName {
-                        color: rgb(59, 59, 59);
+                        color: var(--clientName-color);
                         text-shadow: 0 0 5px var(--shadow-color);
 
                 }
@@ -87,9 +103,9 @@
                 #roleTitle {
                         font-weight: bold;
                         padding: 5px 15px;
-                        background-color: var(--role-title-background-color);
+                        background-color: var(--role-title-BG);
                         color: var(--role-title-color);
-                        text-shadow: 0 0 5px rgb(10, 91, 184);
+                        text-shadow: 0 0 5px var(--shadow-color);
                         border-radius: 20px;
                         margin: 0 10px;
                 }
@@ -103,15 +119,15 @@
                 #socialLinks {
 
                         padding: 50px 0px;
-                        background-color: var(--main-background-color);
+                        background-color: var(--social-links-BG);
                         border-radius: 20px 20px 0 0;
 
                 }
 
                 #socialLinks > * {
 
-                        color: white;
-                        background-color: #668ae0;
+                        color: var(--social-links-insides-color);
+                        background-color: var(--social-links-insides-BG);
                         padding: 20px;
                         border-radius: 5px;
                         transition: all 1s;
@@ -124,8 +140,8 @@
 
                 #listing {
                         text-align: left;
-                        font-family: 'Lato';
-                        background-color: rgb(202, 243, 204);
+                        /* font-family: 'Lato'; */
+                        background-color: var(--listing-BG);
                         padding: 30px 60px;
                         box-shadow: 0 0 5px rgba(0, 0, 0, 0.336);
                         border-radius: 20px;
@@ -137,12 +153,12 @@
 
 
                 #paraHighlight {
-                        background-color: var(--para-highlight);
-                        color: rgb(39, 39, 39);
+                        background-color: var(--paraHighlight-BG);
+                        color: var(--paraHighlight-color);
                         width: 100%;
                         padding: 30px 20px;
                         border-radius: 20px;
-                        box-shadow: 0 0 50px rgba(107, 236, 219, 0.3);
+                        box-shadow: 0 0 10px var(--shadow-color);
 
                 }
 
@@ -156,10 +172,10 @@
 
                 .button {
                         border-radius: 15px;
-                        background-color: #101727;
-                        color: rgb(255, 255, 255);
+                        background-color: var(--button-BG);
+                        color: var(--button-color);
                         padding: 15px 20px;
-                        box-shadow: 0 0 5px #101727b9;
+                        box-shadow: 0 0 5px var(--shadow-color);
                         transition: all 1s;
                 }
 
