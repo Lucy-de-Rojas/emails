@@ -14,52 +14,22 @@
                 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
 
 
-                :root {
-                        --main-color: rgb(31, 0, 22);
-                        --main-BG: blue;
-                        --shadow-color: rgba(75, 72, 72, 0.5);
-
-
-                        --clientName-color: var(--main-color);
-
-                        --role-title-BG: rgb(248, 5, 228);
-                        --role-title-color: rgb(255, 255, 255);
-
-
-                        --social-links-BG: rgb(40, 1, 66);
-                        --social-links-insides-BG: rgb(0, 98, 105);
-                        --social-links-insides-color: rgb(255, 255, 255);
-
-                        --listing-BG:black;
-
-                        --paraHighlight-BG: rgb(195, 248, 195);
-                        --paraHighlight-color: rgb(28, 29, 1);
-
-                        --button-color: rgb(255, 255, 255);
-                        --button-BG: green;
-
-
-                }
-
-
-
-
-
 
                 body {
                         font-size: 170%;
                         font-family: 'Lato';
-                        color: var(--main-color);
+                        color: #101727b9;
                 }
 
 
                 /* styling a links: */
                 a {
                         text-decoration: none;
+                        /* font-family: Lato; */
                                       }
 
                 hr {
-                        background-color: var(--main-BG);
+                        background-color: rgb(226, 123, 123);
                         height: 1px;
                         width: 80%;
                         border-radius: 20px;
@@ -87,8 +57,8 @@
 
 
                 #clientName {
-                        color: var(--clientName-color);
-                        text-shadow: 0 0 5px var(--shadow-color);
+                        color: rgb(59, 59, 59);
+                        text-shadow: 0 0 5px #55555585;
 
                 }
 
@@ -103,9 +73,9 @@
                 #roleTitle {
                         font-weight: bold;
                         padding: 5px 15px;
-                        background-color: var(--role-title-BG);
-                        color: var(--role-title-color);
-                        text-shadow: 0 0 5px var(--shadow-color);
+                        background-color: #f83e00;
+                        color: white;
+                        text-shadow: 0 0 5px rgb(10, 91, 184);
                         border-radius: 20px;
                         margin: 0 10px;
                 }
@@ -119,15 +89,15 @@
                 #socialLinks {
 
                         padding: 50px 0px;
-                        background-color: var(--social-links-BG);
+                        background-color: #101727;
                         border-radius: 20px 20px 0 0;
 
                 }
 
                 #socialLinks > * {
 
-                        color: var(--social-links-insides-color);
-                        background-color: var(--social-links-insides-BG);
+                        color: white;
+                        background-color: #668ae0;
                         padding: 20px;
                         border-radius: 5px;
                         transition: all 1s;
@@ -140,8 +110,8 @@
 
                 #listing {
                         text-align: left;
-                        /* font-family: 'Lato'; */
-                        background-color: var(--listing-BG);
+                        font-family: 'Lato';
+                        background-color: rgb(202, 243, 204);
                         padding: 30px 60px;
                         box-shadow: 0 0 5px rgba(0, 0, 0, 0.336);
                         border-radius: 20px;
@@ -153,12 +123,13 @@
 
 
                 #paraHighlight {
-                        background-color: var(--paraHighlight-BG);
-                        color: var(--paraHighlight-color);
+                        background-color: #dbfad6;
+                        color: rgb(39, 39, 39);
                         width: 100%;
                         padding: 30px 20px;
                         border-radius: 20px;
-                        box-shadow: 0 0 15px var(--paraHighlight-BG);
+                        box-shadow: 0 0 20px rgba(206, 245, 189, 0.7);
+                        margin: 60px 0;
 
                 }
 
@@ -172,10 +143,10 @@
 
                 .button {
                         border-radius: 15px;
-                        background-color: var(--button-BG);
-                        color: var(--button-color);
+                        background-color: #101727;
+                        color: rgb(255, 255, 255);
                         padding: 15px 20px;
-                        box-shadow: 0 0 5px var(--shadow-color);
+                        box-shadow: 0 0 5px #101727b9;
                         transition: all 1s;
                 }
 
@@ -224,10 +195,10 @@
                 <tr style="padding: 0; margin: 0;">
                         <td align="center" id="topImage">
                                 <img
-                                        src="../../../media/patterns/lowOpacity/background-2025984_1280.jpg"
+                                        src="../../../media/Medical/SkyMedic.webp"
                                         alt="Sketching out a masterpiece ✏️"
                                         width="600"
-                                        height="150"
+                                        height="400"
                                         style="display: block;"
                                         id="topImage"
 
@@ -257,19 +228,21 @@
                 <tr align="center"><td>
                         <p id="message">
 
-                                <!-- <span id="roleTitle"></span> -->
                                 <!-- <p id="paraHighlight"></p> -->
                                 <!-- <span id="bold"></span> -->
 
-<p id="paraHighlight">
 
-        I am excited to apply for the <span id="roleTitle"> Senior Graphic Designer</span> role. With over 20 years of experience in print design and branding, I bring expertise in leading high-impact projects, collaborating with teams, and delivering innovative print materials such as signage, brochures, and banners. <br/><br/>
-        Proficient in Adobe Creative Suite and print production processes, I ensure high-quality outputs that align with brand standards. I thrive in fast-paced environments, balancing multiple projects while staying ahead of industry trends to deliver impactful designs.
-        <br/><br/>
-        I would love the opportunity to contribute my skills and passion for visual storytelling to your team. Thank you for considering my application.
+                                <p id="paraHighlight">
+
+                                        I am excited to apply for the <span id="roleTitle"> Senior Graphic Designer</span> role. With over 20 years of experience in print design and branding, I bring expertise in leading high-impact projects, collaborating with teams, and delivering innovative print materials such as signage, brochures, and banners. <br/><br/>
+                                        Proficient in Adobe Creative Suite and print production processes, I ensure high-quality outputs that align with brand standards. I thrive in fast-paced environments, balancing multiple projects while staying ahead of industry trends to deliver impactful designs.
+                                        <br/><br/>
+                                        I would love the opportunity to contribute my skills and passion for visual storytelling to your team. Thank you for considering my application.
 
 
-</p>
+                                </p>
+
+
 
 
 
