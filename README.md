@@ -51,5 +51,4 @@ Lucy de Rojas - Generic Email
 
 [3Search](https://lucy-de-rojas.github.io/emails/emails/January2025/3search/index.html)
 
-
-[Benji MU](https://lucy-de-rojas.github.io/emails/emails/January2025/MU/index.html)
+[]()
