@@ -3,7 +3,11 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Email 1        </title>
+
+        <!-- change page title:  🔴  -->
+        <title>Rokcet Design Events</title>
+
+        <link rel="icon" href="../../../media/Logos/newLogoNOtail.ico" type="image/x-icon">
 
         <style>
                 /* Font Lato: */
@@ -13,13 +17,15 @@
 
                 body {
                         font-size: 170%;
+                        font-family: 'Lato';
+                        color: #101727b9;
                 }
 
 
                 /* styling a links: */
                 a {
                         text-decoration: none;
-                        font-family: Lato;
+                        /* font-family: Lato; */
                                       }
 
                 hr {
@@ -29,10 +35,6 @@
                         border-radius: 20px;
                         margin-top: 50px;
 
-                }
-
-                p {
-                        font-family: Lato;
                 }
 
 
@@ -48,6 +50,12 @@
 
 
 
+                #topImage {
+                        border-radius: 10px;
+                }
+
+
+
                 #clientName {
                         color: rgb(59, 59, 59);
                         text-shadow: 0 0 5px #55555585;
@@ -56,27 +64,32 @@
 
 
                 #message {
-                        font-family: 'Lato';
                         padding: 0 20px;
                         line-height: 2.5rem;
+                        width: 85%;
                 }
 
 
                 #roleTitle {
                         font-weight: bold;
                         padding: 5px 15px;
-                        background-color: rgb(233, 113, 1);
+                        background-color: #f83e00;
                         color: white;
                         text-shadow: 0 0 5px rgb(10, 91, 184);
                         border-radius: 20px;
+                        margin: 0 10px;
                 }
+
+
+
+
 
 
 
                 #socialLinks {
 
                         padding: 50px 0px;
-                        background-color: rgb(121, 121, 230);
+                        background-color: #101727;
                         border-radius: 20px 20px 0 0;
 
                 }
@@ -84,7 +97,7 @@
                 #socialLinks > * {
 
                         color: white;
-                        background-color: rgb(31, 8, 8);
+                        background-color: #668ae0;
                         padding: 20px;
                         border-radius: 5px;
                         transition: all 1s;
@@ -92,6 +105,32 @@
 
                 #socialLinks > *:hover {
                         background-color: red;
+                }
+
+
+                #listing {
+                        text-align: left;
+                        font-family: 'Lato';
+                        background-color: rgb(202, 243, 204);
+                        padding: 30px 60px;
+                        box-shadow: 0 0 5px rgba(0, 0, 0, 0.336);
+                        border-radius: 20px;
+                }
+
+                #listing > * {
+                        margin: 20px 0;
+                }
+
+
+                #paraHighlight {
+                        background-color: #f1bcaa;
+                        color: rgb(39, 39, 39);
+                        width: 100%;
+                        padding: 30px 20px;
+                        border-radius: 20px;
+                        box-shadow: 0 0 50px rgba(223, 112, 9, 0.3);
+                        margin: 60px 0;
+
                 }
 
 
@@ -104,10 +143,10 @@
 
                 .button {
                         border-radius: 15px;
-                        background-color: rgb(154, 206, 11);
+                        background-color: #101727;
+                        color: rgb(255, 255, 255);
                         padding: 15px 20px;
-                        box-shadow: 0 0 5px rgb(163, 120, 1);
-                        color: rgb(51, 0, 47);
+                        box-shadow: 0 0 5px #101727b9;
                         transition: all 1s;
                 }
 
@@ -116,11 +155,19 @@
                         color: white;
                 }
 
+                #bold {
+                        font-weight: 900;
+                }
 
 
 
-                #message {
-                        font-family: 'Lato';
+
+
+
+
+                .highlightText {
+                        font-weight: 900;
+
                 }
 
 
@@ -144,15 +191,16 @@
 
 
 
-                <!-- top page image: -->
+                <!-- top page image:  🔴 1/4  -->
                 <tr style="padding: 0; margin: 0;">
-                        <td align="center" id="images">
+                        <td align="center" id="topImage">
                                 <img
-                                        src="../../media/Art/alexander-the-great-8789491.svg"
-                                        alt="top page image"
+                                        src="../../../media/Medical/SkyMedic.webp"
+                                        alt="Sketching out a masterpiece ✏️"
                                         width="600"
                                         height="400"
                                         style="display: block;"
+                                        id="topImage"
 
 
                                         />
@@ -167,27 +215,34 @@
                 </tr>
 
 
-                <!-- heading: -->
+                <!-- heading:  🔴  2/4  -->
                 <tr align="center" style="display: block;"><td>
-                        <h1 style="color: rgb(77, 77, 77);font-family: 'Lato'; ">Dear <span id="clientName"> Page one</span>,</h1>
+                        <h1 style="color: rgb(77, 77, 77);font-family: 'Lato'; ">Dear <span id="clientName"> SkyMedic</span>,</h1>
                 </td></tr>
 
 
 
 
 
-                <!-- message: -->
+                <!-- message: 🔴 3/4   -->
                 <tr align="center"><td>
                         <p id="message">
-                                Lorem ipsum dolor, sit <span id="roleTitle">Front End Developer </span> adipisicing elit. Dignissimos provident, nam, necessitatibus cupiditate quod dolore vitae id numquam, quidem earum minima. Deleniti dolores eaque, eos iure esse accusantium molestias eius?
-                        </p>
-                        <p>with best regards</p>
+
+                                <!-- <p id="paraHighlight"></p> -->
+                                <!-- <span id="bold"></span> -->
+
+
+
+
+
+
+</p>
                 </td></tr>
 
 
                 <!-- signature: -->
                 <tr><td align="center">
-                        <img src="../../media/Signature/SignaturegreyBlue.png" width="300" />
+                        <img src="../../../media/Signature/SignaturegreyBlue.png" width="300" alt="image" />
                 </td></tr>
 
 
@@ -209,9 +264,9 @@
 
 
 
-                 <!-- file button: -->
+                 <!-- file button CV  🔴 4/4 : -->
                   <tr align="center"><td class="buttonWrapper">
-                        <a href="./cvs/Lucyt de Rojas web dev 2025 CZ.pdf" download class="button"> Download CV</a></td></tr>
+                        <a href="../../cvs/CV Lucy De Rojas.pdf" download class="button"> Download CV & Portfolio</a></td></tr>
 
 
 
@@ -229,10 +284,10 @@
 
                         <td id="socialLinks">
 
-                                <a href="https://github.com/Lucy-de-Rojas">Github</a>
                                 <a href="https://www.linkedin.com/in/lucyderojas/">LinkedIn</a>
-                                <a href="https://lucy-de-rojas.vercel.app/">www</a>
                                 <a href="https://www.figma.com/@lucyderojas">Figma</a>
+                                <a href="https://lucy-de-rojas.vercel.app/">🌐</a>
+                                <a href="https://github.com/Lucy-de-Rojas">Github</a>
 
 
 
