@@ -56,4 +56,4 @@ Lucy de Rojas - Generic Email
 
 
 ## February 2025:
-[Noir](https://lucy-de-rojas.github.io/emails/emails/February2025\noir\index.html)
+[Noir](https://lucy-de-rojas.github.io/emails/emails/February2025/noir/index.html)
