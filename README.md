@@ -53,4 +53,4 @@ Lucy de Rojas - Generic Email
 
 [Kohde](https://lucy-de-rojas.github.io/emails/emails/January2025/kohde/index.html)
 
-[Noir](https://lucy-de-rojas.github.io/emails/emails/February2025/kohde/index.html)
+[Noir](https://lucy-de-rojas.github.io/emails/emails/February2025\noir\index.html)
