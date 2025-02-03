@@ -51,4 +51,6 @@ Lucy de Rojas - Generic Email
 
 [3Search](https://lucy-de-rojas.github.io/emails/emails/January2025/3search/index.html)
 
-[]()
+[Kohde](https://lucy-de-rojas.github.io/emails/emails/January2025/kohde/index.html)
+
+[Noir](https://lucy-de-rojas.github.io/emails/emails/February2025/kohde/index.html)
