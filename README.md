@@ -60,6 +60,7 @@ Lucy de Rojas - Generic Email
 
 [Nulty+](https://lucy-de-rojas.github.io/emails/emails/February2025/NuttyPlus/index.html)
 
+[Insignia Group](https://lucy-de-rojas.github.io/emails/emails/February2025/InsigniaGroup/index.html)
 
 
 
