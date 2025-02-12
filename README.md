@@ -67,7 +67,7 @@ Lucy de Rojas - Generic Email
 [Practice Plus](https://lucy-de-rojas.github.io/emails/emails/February2025/PracticePlus/index.html)
 
 
-[Practice Plus](https://lucy-de-rojas.github.io/emails/emails/February2025/PracticePlus/thankYou2.html)
+[Practice Plus 2](https://lucy-de-rojas.github.io/emails/emails/February2025/PracticePlus/thankYou2.html)
 
 
 [Honor](https://lucy-de-rojas.github.io/emails/emails/February2025/honor/index.html)
