@@ -30,47 +30,71 @@ Lucy de Rojas - Generic Email
 </a>
 <br /><br /><br />
 
-[digital waffle 19 Jan - digital designer](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalWaffle/digitalDesigner19Jan.html)
 
 
-
-[Google form](https://lucy-de-rojas.github.io/emails/emails/January2025/googleForm/index.html)
-
-
-[digital gurus - front end developer (Jan 2025)](https://lucy-de-rojas.github.io/emails/emails/January2025/digitalGurus/frontEndDev.html)
-
-
-[Justin Fielder](https://lucy-de-rojas.github.io/emails/emails/January2025/Justin-Fielder/index.html)
-
-
-
-[Rocket Design Events](https://lucy-de-rojas.github.io/emails/emails/January2025/Rocket-design-events/index.html)
-
-
-[SkyMedic](https://lucy-de-rojas.github.io/emails/emails/January2025/skyMedic/index.html)
-
-[3Search](https://lucy-de-rojas.github.io/emails/emails/January2025/3search/index.html)
-
-[Kohde](https://lucy-de-rojas.github.io/emails/emails/January2025/kohde/index.html)
-
+## January 2025:
+[January 2025](./MDS/January2025.md)
 
 
 ## February 2025:
-[Noir](https://lucy-de-rojas.github.io/emails/emails/February2025/noir/index.html)
-
-[Nulty+](https://lucy-de-rojas.github.io/emails/emails/February2025/NuttyPlus/index.html)
-
-[Insignia Group](https://lucy-de-rojas.github.io/emails/emails/February2025/InsigniaGroup/index.html)
+[February 2025](./MDS/February2025.md)
 
 
 
-[Practice Plus](https://lucy-de-rojas.github.io/emails/emails/February2025/PracticePlus/index.html)
 
 
-[Practice Plus 2](https://lucy-de-rojas.github.io/emails/emails/February2025/PracticePlus/thankYou2.html)
 
 
-[Honor](https://lucy-de-rojas.github.io/emails/emails/February2025/honor/index.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
