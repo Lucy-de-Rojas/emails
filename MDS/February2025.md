@@ -26,3 +26,5 @@
 
 
 [Olco](https://lucy-de-rojas.github.io/emails/emails/February2025/olco/index.html)
+
+[Digital Waffle - Lydia](https://lucy-de-rojas.github.io/emails/emails/February2025/DigitalWaffle/Lydia.html)
