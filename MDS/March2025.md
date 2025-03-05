@@ -8,4 +8,4 @@
 
 </div>
 
-[Noir](https://lucy-de-rojas.github.io/emails/emails/March2025/Environmental Agency/thankYou.html)
+[Environment Agency](https://lucy-de-rojas.github.io/emails/emails/March2025/EnvironmentalAgency/thankYou.html)
