@@ -14,6 +14,9 @@
 [Huskii Studio](https://lucy-de-rojas.github.io/emails/emails/March2025/HuskiiStudio/index.html)
 
 
+[Kanva Recruitment](https://lucy-de-rojas.github.io/emails/emails/March2025/KanvaRecr/index.html)
+
+
 
 
 
