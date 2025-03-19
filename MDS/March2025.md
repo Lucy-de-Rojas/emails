@@ -34,5 +34,8 @@
 [Stonor Recruitment - Nick](https://lucy-de-rojas.github.io/emails/emails/March2025/StonorRecruitment/index.html)
 
 
+[Insignia Group](https://lucy-de-rojas.github.io/emails/emails/March2025/InsigniaGroup/index.html)
+
+
 
 
