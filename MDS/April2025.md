@@ -10,4 +10,6 @@
 
 [Project People](https://lucy-de-rojas.github.io/emails/emails/April2025/ProjectPeople/ProjectPeople.html)
 
+[Lawn Mower](https://lucy-de-rojas.github.io/emails/emails/April2025/ChevronLawnMowers/index.html)
+
 
